@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Feedback Form</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="reduce-waste.html">Reduce Waste</a>
+      <a href="save-energy.html">Save Energy</a>
+      <a href="protect-nature.html">Protect Nature</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>We’d love to hear your thoughts!</h2>
+
+    <form id="feedbackForm">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" required><br>
+
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" required><br>
+
+      <label for="message">Your Feedback:</label><br>
+      <textarea id="message" rows="5" required></textarea><br>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+
+    <p id="feedbackResponse"></p>
+  </main>
+
+  <footer>
+    <p>Thank you for helping us make a difference 🌎</p>
+  </footer>
+</body>
+</html>
